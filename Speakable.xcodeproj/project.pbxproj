@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A18A46AAB4B3B1F2F075E3 /* Pods_Speakable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0866C9E35E0683E3565FD0 /* Pods_Speakable.framework */; };
+		9609C2B01E5B676400DC2EBC /* SPDonationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609C2AF1E5B676400DC2EBC /* SPDonationTableViewCell.swift */; };
+		9609C2B21E5B677900DC2EBC /* SPDonationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9609C2B11E5B677900DC2EBC /* SPDonationTableViewCell.xib */; };
+		9609C2B51E5B684100DC2EBC /* SPUserDonation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609C2B41E5B684100DC2EBC /* SPUserDonation.swift */; };
+		9609C2B81E5B6F6C00DC2EBC /* SPCampaignDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609C2B71E5B6F6C00DC2EBC /* SPCampaignDetailViewController.swift */; };
+		9609C2BA1E5B6F7D00DC2EBC /* SPCampaignDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9609C2B91E5B6F7D00DC2EBC /* SPCampaignDetailViewController.xib */; };
+		9609C2BD1E5B7D9100DC2EBC /* SPTakeActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609C2BC1E5B7D9000DC2EBC /* SPTakeActionViewController.swift */; };
+		9609C2BF1E5B7D9F00DC2EBC /* SPTakeActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9609C2BE1E5B7D9F00DC2EBC /* SPTakeActionViewController.xib */; };
+		9609C2C21E5B910F00DC2EBC /* SPTakeActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609C2C11E5B910F00DC2EBC /* SPTakeActionTableViewCell.swift */; };
+		9609C2C41E5B918C00DC2EBC /* SPTakeActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9609C2C31E5B918C00DC2EBC /* SPTakeActionTableViewCell.xib */; };
+		960EB1B71E5AD90000D3D022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960EB1B61E5AD90000D3D022 /* AppDelegate.swift */; };
+		960EB1BE1E5AD90000D3D022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960EB1BD1E5AD90000D3D022 /* Assets.xcassets */; };
+		960EB1C11E5AD90000D3D022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960EB1BF1E5AD90000D3D022 /* LaunchScreen.storyboard */; };
+		9663F51D1E5AF1F60061800C /* SPCategorySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663F51C1E5AF1F60061800C /* SPCategorySelectionViewController.swift */; };
+		9663F51F1E5AF2090061800C /* SPCategorySelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9663F51E1E5AF2090061800C /* SPCategorySelectionViewController.xib */; };
+		9663F5231E5AF61F0061800C /* BubbleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663F5211E5AF61F0061800C /* BubbleNode.swift */; };
+		9663F5241E5AF61F0061800C /* BubblesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663F5221E5AF61F0061800C /* BubblesScene.swift */; };
+		9663F5271E5AF9AD0061800C /* SPWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663F5261E5AF9AD0061800C /* SPWelcomeViewController.swift */; };
+		9663F5291E5AF9C10061800C /* SPWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9663F5281E5AF9C10061800C /* SPWelcomeViewController.xib */; };
+		9663F52C1E5B05670061800C /* SPSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663F52B1E5B05670061800C /* SPSignupViewController.swift */; };
+		9663F52E1E5B05750061800C /* SPSignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9663F52D1E5B05750061800C /* SPSignupViewController.xib */; };
+		9663F5341E5B3F200061800C /* SPFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663F5331E5B3F200061800C /* SPFeedViewController.swift */; };
+		9663F5361E5B3F2D0061800C /* SPFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9663F5351E5B3F2D0061800C /* SPFeedViewController.xib */; };
+		9663F53A1E5B3F650061800C /* SPDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663F5391E5B3F650061800C /* SPDonationsViewController.swift */; };
+		9663F53C1E5B3F740061800C /* SPDonationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9663F53B1E5B3F740061800C /* SPDonationsViewController.xib */; };
+		9663F53E1E5B3F950061800C /* SPSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9663F53D1E5B3F950061800C /* SPSettingsViewController.xib */; };
+		9663F5401E5B3FA30061800C /* SPSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663F53F1E5B3FA30061800C /* SPSettingsViewController.swift */; };
+		9663F5441E5B47650061800C /* CampaignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663F5431E5B47650061800C /* CampaignTableViewCell.swift */; };
+		9663F5461E5B47850061800C /* CampaignTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9663F5451E5B47850061800C /* CampaignTableViewCell.xib */; };
+		9663F54A1E5B4A280061800C /* SPCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663F5491E5B4A280061800C /* SPCampaign.swift */; };
+		96ABC2D11E5C395C0072F700 /* SPWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABC2D01E5C395C0072F700 /* SPWebServiceManager.swift */; };
+		96ABC2D51E5C3DEA0072F700 /* SPSubcategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABC2D41E5C3DEA0072F700 /* SPSubcategory.swift */; };
+		96ABC2D71E5C3EAA0072F700 /* SPCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABC2D61E5C3EAA0072F700 /* SPCategory.swift */; };
+		96ABC2D91E5C4EF00072F700 /* SKLabelNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABC2D81E5C4EF00072F700 /* SKLabelNode+Extensions.swift */; };
+		96ABC2DB1E5C61510072F700 /* Date+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABC2DA1E5C61510072F700 /* Date+Utilities.swift */; };
+		96ABC2DE1E5C704D0072F700 /* SPDonation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABC2DD1E5C704D0072F700 /* SPDonation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C6B680433FF6179D0F3B3DD /* Pods-Speakable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speakable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Speakable/Pods-Speakable.release.xcconfig"; sourceTree = "<group>"; };
+		54D053A510518310BDFB1DCC /* Pods-Speakable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speakable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Speakable/Pods-Speakable.debug.xcconfig"; sourceTree = "<group>"; };
+		9609C2AF1E5B676400DC2EBC /* SPDonationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPDonationTableViewCell.swift; path = CustomTableViewCells/SPDonationTableViewCell/SPDonationTableViewCell.swift; sourceTree = "<group>"; };
+		9609C2B11E5B677900DC2EBC /* SPDonationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPDonationTableViewCell.xib; path = CustomTableViewCells/SPDonationTableViewCell/SPDonationTableViewCell.xib; sourceTree = "<group>"; };
+		9609C2B41E5B684100DC2EBC /* SPUserDonation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPUserDonation.swift; path = Models/SPUserDonation/SPUserDonation.swift; sourceTree = "<group>"; };
+		9609C2B71E5B6F6C00DC2EBC /* SPCampaignDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPCampaignDetailViewController.swift; path = SPCampaignDetailViewController/SPCampaignDetailViewController.swift; sourceTree = "<group>"; };
+		9609C2B91E5B6F7D00DC2EBC /* SPCampaignDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPCampaignDetailViewController.xib; path = SPCampaignDetailViewController/SPCampaignDetailViewController.xib; sourceTree = "<group>"; };
+		9609C2BC1E5B7D9000DC2EBC /* SPTakeActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPTakeActionViewController.swift; path = SPTakeActionViewController/SPTakeActionViewController.swift; sourceTree = "<group>"; };
+		9609C2BE1E5B7D9F00DC2EBC /* SPTakeActionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPTakeActionViewController.xib; path = SPTakeActionViewController/SPTakeActionViewController.xib; sourceTree = "<group>"; };
+		9609C2C11E5B910F00DC2EBC /* SPTakeActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPTakeActionTableViewCell.swift; path = CustomTableViewCells/SPTakeActionTableViewCell/SPTakeActionTableViewCell.swift; sourceTree = "<group>"; };
+		9609C2C31E5B918C00DC2EBC /* SPTakeActionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPTakeActionTableViewCell.xib; path = CustomTableViewCells/SPTakeActionTableViewCell/SPTakeActionTableViewCell.xib; sourceTree = "<group>"; };
+		960EB1B31E5AD90000D3D022 /* Speakable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speakable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960EB1B61E5AD90000D3D022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		960EB1BD1E5AD90000D3D022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960EB1C01E5AD90000D3D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960EB1C21E5AD90000D3D022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9663F51C1E5AF1F60061800C /* SPCategorySelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPCategorySelectionViewController.swift; path = SPCategorySelectionViewController/SPCategorySelectionViewController.swift; sourceTree = "<group>"; };
+		9663F51E1E5AF2090061800C /* SPCategorySelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPCategorySelectionViewController.xib; path = SPCategorySelectionViewController/SPCategorySelectionViewController.xib; sourceTree = "<group>"; };
+		9663F5211E5AF61F0061800C /* BubbleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BubbleNode.swift; path = BubbleNode/BubbleNode.swift; sourceTree = "<group>"; };
+		9663F5221E5AF61F0061800C /* BubblesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BubblesScene.swift; path = BubbleNode/BubblesScene.swift; sourceTree = "<group>"; };
+		9663F5261E5AF9AD0061800C /* SPWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPWelcomeViewController.swift; path = SPWelcomeViewController/SPWelcomeViewController.swift; sourceTree = "<group>"; };
+		9663F5281E5AF9C10061800C /* SPWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPWelcomeViewController.xib; path = SPWelcomeViewController/SPWelcomeViewController.xib; sourceTree = "<group>"; };
+		9663F52B1E5B05670061800C /* SPSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPSignupViewController.swift; path = SPSignupViewController/SPSignupViewController.swift; sourceTree = "<group>"; };
+		9663F52D1E5B05750061800C /* SPSignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPSignupViewController.xib; path = SPSignupViewController/SPSignupViewController.xib; sourceTree = "<group>"; };
+		9663F52F1E5B07B40061800C /* averta-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "averta-regular.ttf"; path = "Speakable/averta-regular.ttf"; sourceTree = "<group>"; };
+		9663F5331E5B3F200061800C /* SPFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPFeedViewController.swift; path = SPFeedViewController/SPFeedViewController.swift; sourceTree = "<group>"; };
+		9663F5351E5B3F2D0061800C /* SPFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPFeedViewController.xib; path = SPFeedViewController/SPFeedViewController.xib; sourceTree = "<group>"; };
+		9663F5391E5B3F650061800C /* SPDonationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPDonationsViewController.swift; path = SPDonationsViewController/SPDonationsViewController.swift; sourceTree = "<group>"; };
+		9663F53B1E5B3F740061800C /* SPDonationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPDonationsViewController.xib; path = SPDonationsViewController/SPDonationsViewController.xib; sourceTree = "<group>"; };
+		9663F53D1E5B3F950061800C /* SPSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPSettingsViewController.xib; path = SPSettingsViewController/SPSettingsViewController.xib; sourceTree = "<group>"; };
+		9663F53F1E5B3FA30061800C /* SPSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPSettingsViewController.swift; path = SPSettingsViewController/SPSettingsViewController.swift; sourceTree = "<group>"; };
+		9663F5431E5B47650061800C /* CampaignTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CampaignTableViewCell.swift; path = CustomTableViewCells/CampaignTableViewCell/CampaignTableViewCell.swift; sourceTree = "<group>"; };
+		9663F5451E5B47850061800C /* CampaignTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CampaignTableViewCell.xib; path = CustomTableViewCells/CampaignTableViewCell/CampaignTableViewCell.xib; sourceTree = "<group>"; };
+		9663F5491E5B4A280061800C /* SPCampaign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPCampaign.swift; path = Models/SPCampaign/SPCampaign.swift; sourceTree = "<group>"; };
+		96ABC2D01E5C395C0072F700 /* SPWebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPWebServiceManager.swift; path = WebService/SPWebServiceManager.swift; sourceTree = "<group>"; };
+		96ABC2D41E5C3DEA0072F700 /* SPSubcategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPSubcategory.swift; path = Models/SPSubcategory/SPSubcategory.swift; sourceTree = "<group>"; };
+		96ABC2D61E5C3EAA0072F700 /* SPCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPCategory.swift; path = Models/SPCategory/SPCategory.swift; sourceTree = "<group>"; };
+		96ABC2D81E5C4EF00072F700 /* SKLabelNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKLabelNode+Extensions.swift"; path = "BubbleNode/SKLabelNode+Extensions.swift"; sourceTree = "<group>"; };
+		96ABC2DA1E5C61510072F700 /* Date+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date+Utilities.swift"; path = "Extensions/Date+Utilities.swift"; sourceTree = "<group>"; };
+		96ABC2DD1E5C704D0072F700 /* SPDonation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SPDonation.swift; path = Models/SPDonation/SPDonation.swift; sourceTree = "<group>"; };
+		FD0866C9E35E0683E3565FD0 /* Pods_Speakable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Speakable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960EB1B01E5AD90000D3D022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A18A46AAB4B3B1F2F075E3 /* Pods_Speakable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D58F00CCB07CC79B9E75C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54D053A510518310BDFB1DCC /* Pods-Speakable.debug.xcconfig */,
+				4C6B680433FF6179D0F3B3DD /* Pods-Speakable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95BB9E804DB2B29CB4FF0E8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD0866C9E35E0683E3565FD0 /* Pods_Speakable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9609C2AE1E5B673E00DC2EBC /* SPDonationTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9609C2AF1E5B676400DC2EBC /* SPDonationTableViewCell.swift */,
+				9609C2B11E5B677900DC2EBC /* SPDonationTableViewCell.xib */,
+			);
+			name = SPDonationTableViewCell;
+			sourceTree = "<group>";
+		};
+		9609C2B31E5B682300DC2EBC /* SPUserDonation */ = {
+			isa = PBXGroup;
+			children = (
+				9609C2B41E5B684100DC2EBC /* SPUserDonation.swift */,
+			);
+			name = SPUserDonation;
+			sourceTree = "<group>";
+		};
+		9609C2B61E5B6F3900DC2EBC /* SPCampaignDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9609C2B71E5B6F6C00DC2EBC /* SPCampaignDetailViewController.swift */,
+				9609C2B91E5B6F7D00DC2EBC /* SPCampaignDetailViewController.xib */,
+			);
+			name = SPCampaignDetailViewController;
+			sourceTree = "<group>";
+		};
+		9609C2BB1E5B7D6B00DC2EBC /* SPTakeActionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9609C2BC1E5B7D9000DC2EBC /* SPTakeActionViewController.swift */,
+				9609C2BE1E5B7D9F00DC2EBC /* SPTakeActionViewController.xib */,
+			);
+			name = SPTakeActionViewController;
+			sourceTree = "<group>";
+		};
+		9609C2C01E5B90D500DC2EBC /* SPTakeActionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9609C2C11E5B910F00DC2EBC /* SPTakeActionTableViewCell.swift */,
+				9609C2C31E5B918C00DC2EBC /* SPTakeActionTableViewCell.xib */,
+			);
+			name = SPTakeActionTableViewCell;
+			sourceTree = "<group>";
+		};
+		960EB1AA1E5AD90000D3D022 = {
+			isa = PBXGroup;
+			children = (
+				9663F52F1E5B07B40061800C /* averta-regular.ttf */,
+				960EB1B51E5AD90000D3D022 /* Speakable */,
+				960EB1B41E5AD90000D3D022 /* Products */,
+				84D58F00CCB07CC79B9E75C6 /* Pods */,
+				95BB9E804DB2B29CB4FF0E8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		960EB1B41E5AD90000D3D022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960EB1B31E5AD90000D3D022 /* Speakable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960EB1B51E5AD90000D3D022 /* Speakable */ = {
+			isa = PBXGroup;
+			children = (
+				960EB1B61E5AD90000D3D022 /* AppDelegate.swift */,
+				960EB1BD1E5AD90000D3D022 /* Assets.xcassets */,
+				96ABC2CF1E5C39380072F700 /* WebService */,
+				9663F5471E5B49E90061800C /* Models */,
+				969D24191E5B5CF000FADAFC /* Helpers */,
+				969D24181E5B5CE700FADAFC /* ViewControllers */,
+				960EB1BF1E5AD90000D3D022 /* LaunchScreen.storyboard */,
+				960EB1C21E5AD90000D3D022 /* Info.plist */,
+			);
+			path = Speakable;
+			sourceTree = "<group>";
+		};
+		9663F51B1E5AF1B80061800C /* SPCategorySelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9663F51C1E5AF1F60061800C /* SPCategorySelectionViewController.swift */,
+				9663F51E1E5AF2090061800C /* SPCategorySelectionViewController.xib */,
+			);
+			name = SPCategorySelectionViewController;
+			sourceTree = "<group>";
+		};
+		9663F5201E5AF6040061800C /* BubbleNode */ = {
+			isa = PBXGroup;
+			children = (
+				9663F5211E5AF61F0061800C /* BubbleNode.swift */,
+				9663F5221E5AF61F0061800C /* BubblesScene.swift */,
+				96ABC2D81E5C4EF00072F700 /* SKLabelNode+Extensions.swift */,
+			);
+			name = BubbleNode;
+			sourceTree = "<group>";
+		};
+		9663F5251E5AF9730061800C /* SPWelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9663F5261E5AF9AD0061800C /* SPWelcomeViewController.swift */,
+				9663F5281E5AF9C10061800C /* SPWelcomeViewController.xib */,
+			);
+			name = SPWelcomeViewController;
+			sourceTree = "<group>";
+		};
+		9663F52A1E5B052F0061800C /* SPSignupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9663F52B1E5B05670061800C /* SPSignupViewController.swift */,
+				9663F52D1E5B05750061800C /* SPSignupViewController.xib */,
+			);
+			name = SPSignupViewController;
+			sourceTree = "<group>";
+		};
+		9663F5301E5B3ECC0061800C /* SPFeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9663F5331E5B3F200061800C /* SPFeedViewController.swift */,
+				9663F5351E5B3F2D0061800C /* SPFeedViewController.xib */,
+			);
+			name = SPFeedViewController;
+			sourceTree = "<group>";
+		};
+		9663F5311E5B3EDF0061800C /* SPDonationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9663F5391E5B3F650061800C /* SPDonationsViewController.swift */,
+				9663F53B1E5B3F740061800C /* SPDonationsViewController.xib */,
+			);
+			name = SPDonationsViewController;
+			sourceTree = "<group>";
+		};
+		9663F5321E5B3EF70061800C /* SPSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9663F53F1E5B3FA30061800C /* SPSettingsViewController.swift */,
+				9663F53D1E5B3F950061800C /* SPSettingsViewController.xib */,
+			);
+			name = SPSettingsViewController;
+			sourceTree = "<group>";
+		};
+		9663F5411E5B47140061800C /* CustomTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9609C2C01E5B90D500DC2EBC /* SPTakeActionTableViewCell */,
+				9609C2AE1E5B673E00DC2EBC /* SPDonationTableViewCell */,
+				9663F5421E5B47270061800C /* CampaignTableViewCell */,
+			);
+			name = CustomTableViewCells;
+			sourceTree = "<group>";
+		};
+		9663F5421E5B47270061800C /* CampaignTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9663F5431E5B47650061800C /* CampaignTableViewCell.swift */,
+				9663F5451E5B47850061800C /* CampaignTableViewCell.xib */,
+			);
+			name = CampaignTableViewCell;
+			sourceTree = "<group>";
+		};
+		9663F5471E5B49E90061800C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				96ABC2DC1E5C70330072F700 /* SPDonation */,
+				96ABC2D31E5C3DC80072F700 /* SPSubcategory */,
+				96ABC2D21E5C3DBB0072F700 /* SPCategory */,
+				9609C2B31E5B682300DC2EBC /* SPUserDonation */,
+				9663F5481E5B4A020061800C /* SPCampaign */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9663F5481E5B4A020061800C /* SPCampaign */ = {
+			isa = PBXGroup;
+			children = (
+				9663F5491E5B4A280061800C /* SPCampaign.swift */,
+			);
+			name = SPCampaign;
+			sourceTree = "<group>";
+		};
+		969D24181E5B5CE700FADAFC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9609C2BB1E5B7D6B00DC2EBC /* SPTakeActionViewController */,
+				9663F5251E5AF9730061800C /* SPWelcomeViewController */,
+				9663F52A1E5B052F0061800C /* SPSignupViewController */,
+				9663F51B1E5AF1B80061800C /* SPCategorySelectionViewController */,
+				9663F5301E5B3ECC0061800C /* SPFeedViewController */,
+				9663F5311E5B3EDF0061800C /* SPDonationsViewController */,
+				9663F5321E5B3EF70061800C /* SPSettingsViewController */,
+				9609C2B61E5B6F3900DC2EBC /* SPCampaignDetailViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		969D24191E5B5CF000FADAFC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9663F5411E5B47140061800C /* CustomTableViewCells */,
+				9663F5201E5AF6040061800C /* BubbleNode */,
+				96ABC2DA1E5C61510072F700 /* Date+Utilities.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		96ABC2CF1E5C39380072F700 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				96ABC2D01E5C395C0072F700 /* SPWebServiceManager.swift */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		96ABC2D21E5C3DBB0072F700 /* SPCategory */ = {
+			isa = PBXGroup;
+			children = (
+				96ABC2D61E5C3EAA0072F700 /* SPCategory.swift */,
+			);
+			name = SPCategory;
+			sourceTree = "<group>";
+		};
+		96ABC2D31E5C3DC80072F700 /* SPSubcategory */ = {
+			isa = PBXGroup;
+			children = (
+				96ABC2D41E5C3DEA0072F700 /* SPSubcategory.swift */,
+			);
+			name = SPSubcategory;
+			sourceTree = "<group>";
+		};
+		96ABC2DC1E5C70330072F700 /* SPDonation */ = {
+			isa = PBXGroup;
+			children = (
+				96ABC2DD1E5C704D0072F700 /* SPDonation.swift */,
+			);
+			name = SPDonation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960EB1B21E5AD90000D3D022 /* Speakable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960EB1C51E5AD90000D3D022 /* Build configuration list for PBXNativeTarget "Speakable" */;
+			buildPhases = (
+				99E0975ED7ED3274A2C53F4B /* [CP] Check Pods Manifest.lock */,
+				960EB1AF1E5AD90000D3D022 /* Sources */,
+				960EB1B01E5AD90000D3D022 /* Frameworks */,
+				960EB1B11E5AD90000D3D022 /* Resources */,
+				F6B856994D4B4D428B388882 /* [CP] Embed Pods Frameworks */,
+				214A1F00FF54382CCC209796 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speakable;
+			productName = Speakable;
+			productReference = 960EB1B31E5AD90000D3D022 /* Speakable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960EB1AB1E5AD90000D3D022 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					960EB1B21E5AD90000D3D022 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2E3WU6RRL3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 960EB1AE1E5AD90000D3D022 /* Build configuration list for PBXProject "Speakable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960EB1AA1E5AD90000D3D022;
+			productRefGroup = 960EB1B41E5AD90000D3D022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960EB1B21E5AD90000D3D022 /* Speakable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960EB1B11E5AD90000D3D022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9663F53E1E5B3F950061800C /* SPSettingsViewController.xib in Resources */,
+				960EB1C11E5AD90000D3D022 /* LaunchScreen.storyboard in Resources */,
+				9609C2C41E5B918C00DC2EBC /* SPTakeActionTableViewCell.xib in Resources */,
+				9663F51F1E5AF2090061800C /* SPCategorySelectionViewController.xib in Resources */,
+				9609C2BA1E5B6F7D00DC2EBC /* SPCampaignDetailViewController.xib in Resources */,
+				9663F5291E5AF9C10061800C /* SPWelcomeViewController.xib in Resources */,
+				9663F52E1E5B05750061800C /* SPSignupViewController.xib in Resources */,
+				960EB1BE1E5AD90000D3D022 /* Assets.xcassets in Resources */,
+				9609C2B21E5B677900DC2EBC /* SPDonationTableViewCell.xib in Resources */,
+				9609C2BF1E5B7D9F00DC2EBC /* SPTakeActionViewController.xib in Resources */,
+				9663F5361E5B3F2D0061800C /* SPFeedViewController.xib in Resources */,
+				9663F5461E5B47850061800C /* CampaignTableViewCell.xib in Resources */,
+				9663F53C1E5B3F740061800C /* SPDonationsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		214A1F00FF54382CCC209796 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Speakable/Pods-Speakable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E0975ED7ED3274A2C53F4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B856994D4B4D428B388882 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Speakable/Pods-Speakable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960EB1AF1E5AD90000D3D022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9609C2B81E5B6F6C00DC2EBC /* SPCampaignDetailViewController.swift in Sources */,
+				9663F54A1E5B4A280061800C /* SPCampaign.swift in Sources */,
+				9663F5271E5AF9AD0061800C /* SPWelcomeViewController.swift in Sources */,
+				9609C2C21E5B910F00DC2EBC /* SPTakeActionTableViewCell.swift in Sources */,
+				9663F5401E5B3FA30061800C /* SPSettingsViewController.swift in Sources */,
+				9663F5231E5AF61F0061800C /* BubbleNode.swift in Sources */,
+				9663F5441E5B47650061800C /* CampaignTableViewCell.swift in Sources */,
+				96ABC2D11E5C395C0072F700 /* SPWebServiceManager.swift in Sources */,
+				960EB1B71E5AD90000D3D022 /* AppDelegate.swift in Sources */,
+				9663F53A1E5B3F650061800C /* SPDonationsViewController.swift in Sources */,
+				9609C2B51E5B684100DC2EBC /* SPUserDonation.swift in Sources */,
+				9663F5341E5B3F200061800C /* SPFeedViewController.swift in Sources */,
+				9609C2BD1E5B7D9100DC2EBC /* SPTakeActionViewController.swift in Sources */,
+				9663F52C1E5B05670061800C /* SPSignupViewController.swift in Sources */,
+				9663F51D1E5AF1F60061800C /* SPCategorySelectionViewController.swift in Sources */,
+				9609C2B01E5B676400DC2EBC /* SPDonationTableViewCell.swift in Sources */,
+				9663F5241E5AF61F0061800C /* BubblesScene.swift in Sources */,
+				96ABC2D71E5C3EAA0072F700 /* SPCategory.swift in Sources */,
+				96ABC2DE1E5C704D0072F700 /* SPDonation.swift in Sources */,
+				96ABC2D91E5C4EF00072F700 /* SKLabelNode+Extensions.swift in Sources */,
+				96ABC2D51E5C3DEA0072F700 /* SPSubcategory.swift in Sources */,
+				96ABC2DB1E5C61510072F700 /* Date+Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		960EB1BF1E5AD90000D3D022 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960EB1C01E5AD90000D3D022 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960EB1C31E5AD90000D3D022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		960EB1C41E5AD90000D3D022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960EB1C61E5AD90000D3D022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D053A510518310BDFB1DCC /* Pods-Speakable.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2E3WU6RRL3;
+				INFOPLIST_FILE = Speakable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lateral.Speakable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		960EB1C71E5AD90000D3D022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6B680433FF6179D0F3B3DD /* Pods-Speakable.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2E3WU6RRL3;
+				INFOPLIST_FILE = Speakable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lateral.Speakable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960EB1AE1E5AD90000D3D022 /* Build configuration list for PBXProject "Speakable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960EB1C31E5AD90000D3D022 /* Debug */,
+				960EB1C41E5AD90000D3D022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960EB1C51E5AD90000D3D022 /* Build configuration list for PBXNativeTarget "Speakable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960EB1C61E5AD90000D3D022 /* Debug */,
+				960EB1C71E5AD90000D3D022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960EB1AB1E5AD90000D3D022 /* Project object */;
+}

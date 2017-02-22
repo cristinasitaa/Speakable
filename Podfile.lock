@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (4.3.0)
+  - Kingfisher (3.4.0)
+  - SIFloatingCollection (2.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - Kingfisher (~> 3.0)
+  - SIFloatingCollection (from `https://github.com/pavan309/SIFloatingCollection_Swift`)
+
+EXTERNAL SOURCES:
+  SIFloatingCollection:
+    :git: https://github.com/pavan309/SIFloatingCollection_Swift
+
+CHECKOUT OPTIONS:
+  SIFloatingCollection:
+    :commit: e22f68781bb098295b787cca7b66d5dcdbda0512
+    :git: https://github.com/pavan309/SIFloatingCollection_Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Kingfisher: 5690cfb3d1bddf3a98d679a3a34d0b7294974ed2
+  SIFloatingCollection: 2603c59df230f161a0a4400ac25fa8d013be7edb
+
+PODFILE CHECKSUM: 63745300f5089af797cf90665a1c1af21f8db138
+
+COCOAPODS: 1.2.0
