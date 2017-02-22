@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-let mainURL = "https://qa-api.actionbutton.co"
+let mainURL = "https://qa-actionbutton-api-fedex.azurewebsites.net/"
 
 struct API {
   

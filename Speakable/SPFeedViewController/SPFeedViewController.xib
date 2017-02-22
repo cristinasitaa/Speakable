@@ -97,29 +97,27 @@
                                             <constraint firstAttribute="width" constant="696" id="xZY-Vn-1al"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today’s causes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLq-Kx-G86">
-                                        <rect key="frame" x="16" y="15" width="117" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="117" id="Rl1-99-iAi"/>
-                                            <constraint firstAttribute="height" constant="21" id="d4D-7j-Tdc"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Averta-Regular" family="Averta" pointSize="17"/>
-                                        <color key="textColor" red="0.047058823530000002" green="0.14901960780000001" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="4PJ-Bh-Ouv" firstAttribute="leading" secondItem="ITX-o5-mVU" secondAttribute="leading" constant="16" id="6yS-03-PL2"/>
-                                    <constraint firstItem="SLq-Kx-G86" firstAttribute="leading" secondItem="ITX-o5-mVU" secondAttribute="leading" constant="16" id="Afn-c9-tEY"/>
                                     <constraint firstItem="4PJ-Bh-Ouv" firstAttribute="top" secondItem="ITX-o5-mVU" secondAttribute="top" constant="44" id="S4C-b6-fIO"/>
                                     <constraint firstAttribute="bottom" secondItem="4PJ-Bh-Ouv" secondAttribute="bottom" id="jIO-gY-oPm"/>
                                     <constraint firstAttribute="trailing" secondItem="4PJ-Bh-Ouv" secondAttribute="trailing" constant="2" id="m0j-nm-Jjo"/>
-                                    <constraint firstItem="SLq-Kx-G86" firstAttribute="top" secondItem="ITX-o5-mVU" secondAttribute="top" constant="15" id="qBd-bL-w5p"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="-1" id="8vh-Df-Yyd"/>
                                 </connections>
                             </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today’s causes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLq-Kx-G86">
+                                <rect key="frame" x="16" y="15" width="117" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="117" id="Rl1-99-iAi"/>
+                                    <constraint firstAttribute="height" constant="21" id="d4D-7j-Tdc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Averta-Regular" family="Averta" pointSize="17"/>
+                                <color key="textColor" red="0.047058823530000002" green="0.14901960780000001" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3UT-MU-4bd">
                                 <rect key="frame" x="0.0" y="230" width="375" height="261"/>
                                 <subviews>
@@ -157,6 +155,8 @@
                             <constraint firstItem="ITX-o5-mVU" firstAttribute="leading" secondItem="fEr-kC-hkV" secondAttribute="leading" id="3iM-3A-2jQ"/>
                             <constraint firstItem="3UT-MU-4bd" firstAttribute="top" secondItem="fEr-kC-hkV" secondAttribute="top" constant="230" id="4gx-bQ-MYA"/>
                             <constraint firstItem="gFB-fu-WcX" firstAttribute="leading" secondItem="fEr-kC-hkV" secondAttribute="leading" constant="16" id="BT3-fP-xfF"/>
+                            <constraint firstItem="SLq-Kx-G86" firstAttribute="leading" secondItem="fEr-kC-hkV" secondAttribute="leading" constant="16" id="Lnf-ai-6Li"/>
+                            <constraint firstItem="SLq-Kx-G86" firstAttribute="top" secondItem="fEr-kC-hkV" secondAttribute="top" constant="15" id="Qrg-Nj-gq7"/>
                             <constraint firstItem="3UT-MU-4bd" firstAttribute="top" secondItem="ITX-o5-mVU" secondAttribute="bottom" id="RlN-dN-wrr"/>
                             <constraint firstAttribute="trailing" secondItem="ITX-o5-mVU" secondAttribute="trailing" id="ZLB-aG-z3w"/>
                             <constraint firstItem="ITX-o5-mVU" firstAttribute="top" secondItem="fEr-kC-hkV" secondAttribute="top" id="bZJ-OK-KnI"/>
